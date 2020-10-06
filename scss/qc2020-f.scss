@@ -1,6 +1,7 @@
 @import "color";
-@import "color";
-@import "alert";
-@import "alert-mixin";
+@import "variables";
 @import "mixin";
-@import "main";
+@import "vendor/alert-mixin";
+@import "vendor/alert";
+
+// @import "main";

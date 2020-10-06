@@ -7,7 +7,7 @@
   padding: $alert-padding-y $alert-padding-x;
   margin-bottom: $alert-margin-bottom;
   border: $alert-border-width solid transparent;
-  @include border-radius($alert-border-radius);
+  border-radius: $alert-border-radius;
 }
 
 // Headings for larger alerts
@@ -44,8 +44,13 @@
 //
 // Generate contextual modifier classes for colorizing the alert.
 //for 문
-@each $color, $value in $theme-colors {
-  .alert-#{$color} {
-    @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
+@each $value, $color in $default-color{
+  .alert-#{$value} {
+    @include alert-variant($color, $color);
   }
 }
+// @each $color, $value in $theme-colors {
+//   .alert-#{$color} {
+//     @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
+//   }
+// }
