@@ -32,7 +32,7 @@
 }
 
 .alert-sky hr {
-  border-top-color: #0033FF, 5%;
+  border-top-color: #0033FF;
 }
 
 .alert-deep {
@@ -41,7 +41,7 @@
 }
 
 .alert-deep hr {
-  border-top-color: #FF0000, 5%;
+  border-top-color: #FF0000;
 }
 
 .alert-ground {
@@ -50,7 +50,7 @@
 }
 
 .alert-ground hr {
-  border-top-color: #006600, 5%;
+  border-top-color: #006600;
 }
 
 .alert-now {
@@ -59,7 +59,7 @@
 }
 
 .alert-now hr {
-  border-top-color: #ececec, 5%;
+  border-top-color: #ececec;
 }
 
 .alert-cheeze {
@@ -68,7 +68,7 @@
 }
 
 .alert-cheeze hr {
-  border-top-color: #FFFF00, 5%;
+  border-top-color: #FFFF00;
 }
 
 .alert-smoke {
@@ -77,7 +77,7 @@
 }
 
 .alert-smoke hr {
-  border-top-color: #333333, 5%;
+  border-top-color: #333333;
 }
 
 .alert-white {
@@ -86,6 +86,6 @@
 }
 
 .alert-white hr {
-  border-top-color: #FFFFFF, 5%;
+  border-top-color: #FFFFFF;
 }
 /*# sourceMappingURL=qc2020-f.css.map */
